@@ -1,27 +1,22 @@
 export const config = {
     // 公众号配置
     // 公众号appId
-    appId: "wxc93158bacb37c180",
+    appId: "wx673e100c4f84d531",
     // 公众号appSecret
-    appSecret: "8166ccc94171205acc61d79daf86d08b",
+    appSecret: "2ca9434dbf8b9ccb1ac114cd28bc2bbc",
     // 模板消息id
-    templateId: "xvG5n3a5G8GETg4jKalnonM_jzTo2kOvJdXMgRdikwU",
+    templateId: "WgfDfmTw48IRErbxTpmq3ILTIk7QkiZdFPY1FThyov4",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-    user: ["oKMUE5wRy-yGT4pYhh3J2o-8F7rw","oKMUE5_d2TL5BYpWZiXM1dPLP6LA"],
+    user: ["oghA26LhdgElAe4HljRmcIRSQu0M","oghA26Nzr0XqSOi3ZxREWRc3K2tk"],
      
     // 信息配置
     ewai: "   ",
     // 所在省份
-    province: "广西",
+    province: "贵州",
     // 所在城市
-    city: "桂林",
-    // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
-    birthdays: [
-      {"name": "曾曾", "year": "1998", "date": "06-02", "type": 'new'},
-      {"name": "哥哥", "year": "1996", "date": "01-07", "type": 'new'},
-    ],
+    city: "贵阳",
     // 在一起的日子，格式同上
-    loveDate: "2016-11-05",
+    loveDate: "2022-05-20",
     // 结婚纪念日
     
     }
@@ -31,9 +26,9 @@ export const config = {
 //天气：{{weather.DATA}}  
 //最低气温: {{min_temperature.DATA}}  
 //最高气温: {{max_temperature.DATA}}  
-//今天是我们恋爱的第{{love_day.DATA}}天
-// 
- //{{birthday_message.DATA}}
+//今天是我们恋爱的第{{love_day.DATA}}天 
+ 
+//注意！：昨天的不开心不能带到今天哦，我的韩先生mua
 
 // {{note_en.DATA}}  
 // {{note_ch.DATA}}
